@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Russain</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="fix.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="navbar bg-dark navbar-dark navbar-expand-sm" style="height:140px">
+	   <!-- create a hamburgurger button to show the collapse of nav. list-->
+	    <button type="button" class="navbar-toggler"  data-toggle="collapse" data-target="#collapseTab" aria-label="Toggle navigation">
+	      <span class="collapse navbar-toggler-icon"></span>
+	    </button><!-- end of collapse button>
+	  <!-- div for collapse session-->
+	<div class="collapse navbar-collapse" id="collapseTab">
+	  <!-- nav list-->
+	  <div class="navbar-nav" style="margin:auto; font-size:2em;">
+	  <a href="index.html" class="nav-item nav-link" style="border:2px solid blue; background-color: red;">Home</a></li>
+	  <a href="Dutch.html" class="nav-item nav-link" style="border:2px solid blue; background-color: red;">Dutch</a></li>
+	  <a href="French.html" class="nav-item nav-link" style="border:2px solid blue; background-color: red;">French</a></li>
+	  <a href="American.html" class="nav-item nav-link" style="border:2px solid blue; background-color: red;">American</a></li>
+	  <a href="#" class="nav-item nav-link text-dark" style="border:2px solid blue; background-color: red;">Russian</a></li>
+	</div>
+	</div><!-- end collapse-->
+	</nav>
+</div><!--end nav list-->
+</br>
+<h4 id="r1">Revolution</h4>
+<p>It’s called the Russian Revolution, which makes it sound like a single event. In reality, there were two revolutions in 1917. Prior to that there was an uprising in 1905 which foreshadowed what would come 12 years later. That uprising led to a constitution being signed in 1906 and the formation of the Duma, a legislative body which could pass laws (though they had to be approved by the State Council and the Tsar.) As a result, the Tsar retained his power. However, in February 1917 there was a revolt the Tsar couldn't control, and that forced him to abdicate. 
+
+The provisional government that filled the void left by the loss of the Tsar was controlled mostly by the upper class and the part of the army that wanted to continue the WWI fight against Germany. Consequently, in October, the working class and the soldiers opposed to war led by Vladimir Lenin overthrew this government and set up a communist government. A tremendous civil war erupted between the Reds, known as Bolsheviks who supported communism and the Whites, those that were loyal to the government. The Bolsheviks defeated all their rivals, and in 1922 declared themselves the Communist Party. They then established the Union of Soviet Socialist Republics (USSR.)
+</p>
+<!--table of contents-->
+<div class="container-fluid">
+<ul style="list-style-type:disc; font-size: 130%;">
+<span style="font-size: 120%; margin-right: 5%;"><b>Table of Contents</b></span>
+ <li><a href="#r1">Revolution</a></li>
+ <li><a href="#r2">Causes of the Revolution</a></li>
+ <li><a href="#r3">October Revolution</a></li>
+ <li><a href="#r4">U.S.S.R.</a></li>
+ <li><a href="#r5">Stalin</a></li>
+ <li><a href="#r6">Turning into a Republic </a></li>
+</ul>
+</div>
+<!--pictures with lightbox-->
+<center>
+<div class="shown">
+<div class="small">
+<a href="#" data-toggle="tooltip" data-placement="top" title="Tsar Nicholas II"> <img src="images/nick.jpg"   alt="Tsar Nicholas II" onclick="openModal();currentSlide(1)" class="hover-shadow" ></a>
+<a href="#" data-toggle="tooltip" data-placement="top" title="Vladimir Lenin"> <img src="images/lenin.jpg" alt="Lenin" onclick="openModal();currentSlide(2)" class="hover-shadow" ></a>
+<a href="#" data-toggle="tooltip" data-placement="top" title="Joseph Stalin"> <img src="images/stalin.jpg" alt="Stalin" onclick="openModal();currentSlide(3)" class="hover-shadow" ></a>
+<a href="#" data-toggle="tooltip" data-placement="top" title="Leon Trotsky"> <img src="images/trot.jpg" alt="Trotsky" onclick="openModal();currentSlide(4)" class="hover-shadow" ></a>
+</div>
+</div>
+</center>
+<!--modal-->
+<div id="myModal" class="modal">
+  <span class="close" style="color:white;" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+  	<div class="mySlides">
+      <div class="numbertext"></div>
+      <figure>
+      <img src="images/nick.jpg" alt="Tsar" style="margin: 20%; width:60%; height:50%;"><figcaption>Tsar Nicholas II </figcaption>
+  </figure>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <figure>
+      <img src="images/lenin.jpg" alt="Lenin"style="margin: 20%; width:60%; height:50%;"><figcaption>
+      	Vladimir Lenin</figcaption></figure>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext"></div>
+       <figure>
+      <img src="images/stalin.jpg" alt="Stalin" style="margin: 20%; width:60%; height:50%;"><figcaption>Joseph Stalin</figcaption></figure>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <figure>
+      <img src="images/trot.jpg" alt="Trotsky"style="margin: 20%; width:60%; height:50%;"><figcaption>Leon Trotsky</figcaption></figure>
+    </div>
+   <!--arrows-->
+    <a class="back" style="color:white;" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="forward" style="color:white;" onclick="plusSlides(1)">&#10095;</a>
+    <div class="text"></div>
+    	
+</div>
+    </div>
+    <!--par.2-->
+    <h4 id="r2">Causes of the Revolution</h4>
+    <p>Serfdom in Russia was only abolished in 1861 by Tsar Alexander II. As a result of having lived as slaves in all but name for generations the peasants formerly known as serfs now were very poor and unhappy with their situation. Some of the peasants took to working in factories, and the number of factory workers in Russia swelled. But this was not much of an improvement for the peasants who had to work in dangerous conditions for low wages extremely long hours. We get a sense of how long from the law passed in 1897 that limited the working day to be no more than 11 ½ hours. Winds of reform from Europe spread to many of the youth and they would gather to share revolutionary ideas. 
+Adding to the mounting feelings of demanding change was anger at the humiliating defeat in 1905 to Japan in the Russo-Japanese war. This defeat was seen as a sign that the dynasty of the Tsar was not to succeed in Russia. With the outbreak of WWI, the Tsar hoped to unite the country against the common enemy, Germany. However, Russian losses on the battlefield coupled with heavy losses of troops led to widespread discontent in the army. The war also took a heavy toll on the economy with a situation of high prices and even food shortages. As the Tsar had taken command of the troops at the front, he was the one blamed for the results of the war. In February 1917 the workers protested. The Tsar sent out troops to put down the protesters, but most of them refused to give in. The Tsar abdicated on March 15 and fled in fear for his life.
+</p>
+    <h4 id="r3">October Revolution</h4>
+    <p>The continued war effort angered many soldiers and civilians.  Vladimir Lenin, who had been banished to Finland because of his revolutionary ideas, saw an opportunity to come back to Russia and lead the rising numbers of Bolsheviks. Drawing on the writings of Karl Marx, he outlined his political and economic policies in the April Thesis. Working closely with Leon Trotsky, he launched the October Revolution (it actually was in November, but Russia still used the Julian calendar, so it was October on their calendar.) Lenin promised bread to the poor, land to the peasants, and an end to the war. A civil war was started in which the Reds (Bolsheviks,) led by Trotsky triumphed over the Whites(anti-revolutionaries,) other political parties and loyalist supporters. In July 1918 the Tsar, his wife and children were all executed with guns in a basement. It is debated if the orders came from Lenin or local Bolsheviks.</p>
+    <h4 id="r4">U.S.S.R.</h4>
+    <p>
+  Lenin immediately put reforms into effect. He lowered the number of hours one could make an employee work in a day to 8. He set up free education to help people gain literacy. He also started putting all major companies under state control. In 1922 the U.S.S.R. was formed after the Sovietization of nearby countries, such as Georgia and Armenia. Lenin became very sick in 1921 and died in 1924. During his sickness a schism arose between two of the major leaders (assumed successors to Lenin,) Stalin and Leon Trotsky. They disagreed about the implementation of Marxist philosophy. Trotsky insisted that a world-wide revolution was necessary, while Stalin maintained the communist system can work in single country. Stalin gained the upper hand, eventually banishing Trotsky from the country and ordering his assassination which took place in Mexico in the year 1940.</p>
+    <h4 id="r5">Stalin</h4>
+    <p>
+   Stalin ran Russia from the death of Lenin until his death in 1953 under the title of General Secretary. In 1941 he added on the title Premier. Stalin brought all industries under state control. Russia's industries grew in leaps and bounds under his rule. However, there were many years of famine that left people starving. Stalin is most remembered for his Great Purges. In the 1920's and especially in the 30's millions were jailed and killed on trumped up charges. Stalin also persecuted any religious practice. No one was safe under his rule. There were spies of the KGB, the Russian secret police, lurking everywhere, and they could find any excuse to make an arrest.  There was no free speech or freedom of the press, anything that didn’t meet Stalin’s approval usual led to more executions.  After WWII, Winston Churchill referred to the ideological differences between Russia and the West as though an iron curtain had fallen between them.  This term was used to refer to the Berlin Wall which was built to separate between West Berlin and its republic rule and East Berlin which was under the rule of the U.S.S.R.  This wall was a physical indicator of the cold war that existed between the U.S.S.R. and the other superpower of the era: the United States.  </p>
+  <hr>
+   <h3>Reagan's famous speech telling Gorbachev to tear down the Berlin wall.  The most famous line is at the 12 minute mark.</h3>
+   <center><div class="embed-responsive embed-responsive-21by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5MDFX-dNtsM" allowfullscreen></iframe></div></center>
+    <h4 id="r6">Turning into a Republic</h4>
+    <p>During the mid-1980's Mikhail Gorbachev was made General Secretary of the Communist Party.  He encouraged periods of <i>glasnost</i> which gave some more freedom to people. He relaxed the government's control of the press and state prisoners. He advanced a policy of <i>Perestroika</i>, a concept first offered by Leonid Brezhnev in 1979. The idea was to increase economic efficiency, but under Gorbachev’s leadership, it also meant the end of the central planning that had characterized the USSR’s economic policies.  The Berlin Wall was torn down in 1989 granting people the freedom to leave communism.  This new freedom led to protests and Gorbachev stepped down from power on December 25, 1991. He was succeeded two days later by Boris Yeltsin as President of Russia. The U.S.S.R. had officially collapsed and resumed the name of Russia.  Subsequently, some of the place names that had been changed, like Leningrad reverted to their original names --St. Petersburg. Other places named for figures associated with the USSR have also been renamed, so there is no more Stalingrad</p>
+<!--up arrow-->
+    <button type="button" id="myBtn" class="btn btn-info" onclick="topFunction()"> <i id="arrow" class="fa fa-arrow-circle-up"></i></button>
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script>
+    	// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+    </script>
+    <!--lighbox script-->
+     <!--modal-->
+    <script>
+    function openModal() {//get the overlay
+  document.getElementById('myModal').style.display = "block";//display the overlay
+}
+
+function closeModal() {//get function to close overlay
+  document.getElementById('myModal').style.display = "none";//no display when closed
+}
+
+var slideIndex = 1;// set index of array of slides to start from 1
+showSlides(slideIndex); 
+
+
+function plusSlides(n) {//get arrow controls
+  showSlides(slideIndex += n);//equal to image displayed
+}
+function currentSlide(n) {//current image shown
+  showSlides(slideIndex = n);//show the slides
+}
+
+function showSlides(n) {//function go through the slides
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+   var captionText = document.getElementById("caption");
+  
+  if (n > slides.length) {slideIndex = 1}//if n is greater than length of slides
+  if (n < 1) {slideIndex = slides.length}//if n is less than length of slides
+  for (i = 0; i < slides.length; i++) {// add 1 to i to count through the slides
+    slides[i].style.display = "none";//don't display the images that aren't chosen by the user
+  }
+  
+  
+  slides[slideIndex-1].style.display = "block";
+ }
+</script>
+
+
+</body>
+</html>

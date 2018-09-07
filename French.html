@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>French</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="fix.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="navbar bg-dark navbar-dark navbar-expand-sm" style="height:140px">
+	   <!-- create a hamburgurger button to show the collapse of nav. list-->
+	    <button type="button" class="navbar-toggler"  data-toggle="collapse" data-target="#collapseTab" aria-label="Toggle navigation">
+	      <span class="collapse navbar-toggler-icon"></span>
+	    </button><!-- end of collapse button>
+	  <!-- div for collapse session-->
+	<div class="collapse navbar-collapse" id="collapseTab">
+	  <!-- nav list-->
+	  <div class="navbar-nav" style="margin:auto; font-size:2em;">
+	  <a href="index.html" class="nav-item nav-link" style="border:2px solid blue; background-color: red;">Home</a></li>
+	  <a href="Dutch.html" class="nav-item nav-link" style="border:2px solid blue; background-color: red;">Dutch</a></li>
+	  <a href="#" class="nav-item nav-link text-dark" style="border:2px solid blue; background-color: red;">French</a></li>
+	  <a href="American.html" class="nav-item nav-link" style="border:2px solid blue; background-color: red;">American</a></li>
+	  <a href="Russian.html" class="nav-item nav-link" style="border:2px solid blue; background-color: red;">Russian</a></li>
+	</div>
+	</div><!-- end collapse-->
+	</nav>
+</div><!--end nav list-->
+</br>
+<h4 id="f1">Revolution</h4>
+<p>The French Revolution lasted from 1789-1799.  It was a time of great political upheaval, which led to the end of the monarchy and the beheading of King Louis XVI.  There were various forms of republican governments set up throughout the years of the rebellion to replace the rule of kings. Then, in 1804, Napoleon Bonaparte took over and assumed the title of Emperor.</p>
+<!--table of contents-->
+<div class="container-fluid">
+<ul style="list-style-type:disc; font-size: 130%;">
+<span style="font-size: 120%; margin-right: 5%;"><b>Table of Contents</b></span>
+ <li><a href="#f1">Revolution</a></li>
+ <li><a href="#f2">Causes of the Rebellion</a></li>
+ <li><a href="#f3">Reign of Terror</a></li>
+ <li><a href="#f4">Guillotine</a></li>
+ <li><a href="#f5">Tricolor</a></li>
+ <li><a href="#f6">Aftermath</a></li>
+</ul>
+</div>
+<!--pictures with lightbox-->
+<center>
+<div class="shown">
+<div class="small">
+<a href="#" data-toggle="tooltip" data-placement="top" title="King Louis XVI"> <img src="images/louis.jpg"   alt="King Louis XVI" onclick="openModal();currentSlide(1)" class="hover-shadow" ></a>
+<a href="#" data-toggle="tooltip" data-placement="top" title="Maximilien Robespierre"> <img src="images/max.jpg" alt="Maximilien Robespierre" onclick="openModal();currentSlide(2)" class="hover-shadow" ></a>
+<a href="#" data-toggle="tooltip" data-placement="top" title="Napoleon Bonaparte"> <img src="images/nap.jpg" alt="Napoleon Bonaporte" onclick="openModal();currentSlide(3)" class="hover-shadow" ></a>
+<a href="#" data-toggle="tooltip" data-placement="top" title="Napoleon III"> <img src="images/nap3.jpg" alt="napoleon III" onclick="openModal();currentSlide(4)" class="hover-shadow" ></a>
+</div>
+</div>
+</center>
+<!--modal-->
+<div id="myModal" class="modal">
+  <span class="close" style="color:white;" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+  	<div class="mySlides">
+      <div class="numbertext"></div>
+      <figure>
+      <img src="images/louis.jpg" alt="King Louis XVI" style="margin: 20%; width:60%; height:50%;"><figcaption>King Louis XVI </figcaption>
+  </figure>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <figure>
+      <img src="images/max.jpg" alt="Maximilien Robespierre"style="margin: 20%; width:60%; height:50%;"><figcaption>
+      	Maximilien Robespierre</figcaption></figure>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext"></div>
+       <figure>
+      <img src="images/nap.jpg" alt="Napoleon Bonaparte" style="margin: 20%; width:60%; height:50%;"><figcaption>Napoleon Bonaparte</figcaption></figure>
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext"></div>
+      <figure>
+      <img src="images/nap3.jpg" alt="Napoleon III"style="margin: 20%; width:60%; height:50%;"><figcaption>Napoleon III</figcaption></figure>
+    </div>
+   <!--arrows-->
+    <a class="back" style="color:white;" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="forward" style="color:white;" onclick="plusSlides(1)">&#10095;</a>
+    <div class="text"></div>
+    	
+
+    </div>
+    </div>
+
+<!--up arrow-->
+    <button type="button" id="myBtn" class="btn btn-info" onclick="topFunction()"> <i id="arrow" class="fa fa-arrow-circle-up"></i></button>
+<h4 id="f2">Causes of the Rebellion</h4>
+<p>There were various factors leading to the Revolution.  The country was in debt because of the costs of the Seven's Year War and support of the American Revolution.  This led to a tremendous divide between the classes as depicted in Charles Dickens' <i>A Tale of Two Cites</i>. The vast majority of the lower classes were starving, while the upper class where living luxuriously and completely ignoring 
+the plight of the common people.  Tremendous hatred was reserved for the Queen Marie Antoinette. As she was an Austrian princess, she remained a foreigner in the eyes of the French, and she showed herself unconcerned with the people's suffering by extravagant spending in the face of mass starvation.  Furthermore, the Enlightenment was taking root in people's minds, implanting ideas of liberty and equality.  These feelings were spurred on by a living example of how change could occur due to the success of the American Revolution. </p>  
+<h4 id="f3">Reign of Terror</h4>
+<p>A group of Revolutionaries known as the Jacobins led by Maximilien Robespierre, a lawyer, gained control of the Committee of Public Safety in 1793.  They unleashed a Reign of Terror in which they killed anyone suspect to be connected to anti-revolutionary actions.  To assure the continuation of the Revolution all political rivals and anyone suspect of not supporting a complete revolution was killed.</p>
+<h4 id="f4">Guillotine</h4> 
+<p>The guillotine was machine with a triangular blade used to carry out the many beheading that occurred during the Revolution, especially during the Reign of Terror.  It was named after Joseph-Ignance Guillotin, a physician who was opposed to painful forms of capital punishment.  The machine became infamously connected to the Revolution.</p>
+
+<center><div class="embed-responsive embed-responsive-21by9">
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/gB7sM00M_uo" allowfullscreen></iframe></div></center>
+</br>
+<h4 id="f5">Tricolor</h4>
+<p>The tricolor of red, blue and white was adapted in the French Revolution.  Originally the  revolutionaries in Paris attached cockades of blue and red, the city's colors to their hats.  General Lafayette (of American Revolution fame) added white, the color traditionally used by France.  This was adopted as the colors of the flag in 1794. Of course, a new national identity calls for a new national anthem.  "La Marseillaise" was originally written in 1792 by Claude Joseph Rouget de Lisle when France was warring against Austria.</p>
+
+<center><div class="embed-responsive embed-responsive-21by9">
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nDlTjpJvukg" allowfullscreen></iframe></div></center>
+</br>
+<h4 id="f6">Aftermath</h4>
+<p>After the execution of King Louis XVI in 1793 the National Convention with 749 members took over running the country.  After the Jacobins gained political clout, a  9-12 man panel called the Committee of Public Safety ran the country.  Subsequently, upon the execution of Robespierre, it was taken over by the Directory, which had a Council of Five Hundred. That branch of government was held in check by the Council of Ancients, a body of 250 members with veto power.  They were led by a Directory of five members.  This lasted until it became a counsel of three and, eventually, Napoleon became Emperor.  After the Emperor's final defeat in 1814, there were numerous kings and parliamentary combinations.  Then Napoleon III became elected first President in 1848.  When he was forbidden to run for a second term, he arranged a self-coup and became Emperor in 1852.  This lasted until he was forced to flee after his defeat in the Franco-Prussian war.  That was the end of all monarchs and emperors in France, and the country entered into the Third Republic.  This was followed by the Fourth and Fifth Republic in the 20th Century. </p> 
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+    	// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+    </script>
+    <!--modal-->
+    <script>
+    function openModal() {//get the overlay
+  document.getElementById('myModal').style.display = "block";//display the overlay
+}
+
+function closeModal() {//get function to close overlay
+  document.getElementById('myModal').style.display = "none";//no display when closed
+}
+
+var slideIndex = 1;// set index of array of slides to start from 1
+showSlides(slideIndex); 
+
+
+function plusSlides(n) {//get arrow controls
+  showSlides(slideIndex += n);//equal to image displayed
+}
+function currentSlide(n) {//current image shown
+  showSlides(slideIndex = n);//show the slides
+}
+
+function showSlides(n) {//function go through the slides
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+   var captionText = document.getElementById("caption");
+  
+  if (n > slides.length) {slideIndex = 1}//if n is greater than length of slides
+  if (n < 1) {slideIndex = slides.length}//if n is less than length of slides
+  for (i = 0; i < slides.length; i++) {// add 1 to i to count through the slides
+    slides[i].style.display = "none";//don't display the images that aren't chosen by the user
+  }
+  
+  
+  slides[slideIndex-1].style.display = "block";
+ }
+</script>
+
+
+</body>
+</html>
